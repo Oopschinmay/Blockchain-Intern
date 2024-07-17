@@ -1,5 +1,5 @@
 # Blockchain-Intern
-Assignment
+
 const {Connection,PublicKey,clusterApiUrl,Token,TokenSwap} = require('@solana/web3.js');
 const connection = new Connection(clusterApiUrl('mainnet-beta'), 'confirmed');
 const tokenSwapProgramId = new PublicKey('SwaPp7sEt1HLK7kGc4Yk6KmK4Et1HLK7kG');
